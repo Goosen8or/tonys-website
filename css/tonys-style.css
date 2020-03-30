@@ -136,8 +136,7 @@
     font-weight: normal;
     padding: 10px 25px;
     transition: 0.5s 0.12s;
-
-  }
+}
 
   
 
@@ -417,7 +416,35 @@
      MENU              
   -----------------------------------------*/
 
-  
+#menu h2{
+  text-align: center;
+}
+
+  #menu a{
+    color: #252525;
+    background-color: #d4d4d4;
+    margin: 2px;
+  }
+  #menu .headings{
+    float: left;
+    width: 100%;
+  }
+
+  #menu ul{
+    float: left;
+    position: relative;
+    left: 50%;
+  }
+  #menu ul li{
+    float: left;
+    position: relative;
+    left: -50%;
+  }
+
+  #menu a:hover{
+    color: #ffffff;
+    background-color: #3f3f3f;
+  }
 
   /*---------------------------------------
       TESTIMONIAL             
