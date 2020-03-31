@@ -244,6 +244,7 @@
   }
 
   .custom-navbar .nav .section-btn a:hover {
+    background: #292929;
     color: #ffffff;
   }
 
