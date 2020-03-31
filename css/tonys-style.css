@@ -137,7 +137,7 @@
     padding: 10px 25px;
     transition: 0.5s 0.12s;
 }
-
+ 
   
 
 
@@ -227,7 +227,7 @@
 
   .custom-navbar .navbar-nav.navbar-right .section-btn {
     display: inline-block;
-    margin: 0.2em 4em 0 1em;
+    margin: 0.2em 4em 0 0.4em;
   }
 
   .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
@@ -388,6 +388,11 @@
     background-attachment: local;
    
     height: 650px;
+  }
+
+  .main-display .section-btn:hover{
+    background: #292929;
+    color: #ffffff;
   }
 
 
