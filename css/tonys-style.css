@@ -471,13 +471,13 @@
 
   .single_menu_list {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
   
   .single_menu_list h4 {
     font-size: 20px;
     border-bottom: 1px dashed #333;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     margin-bottom: 10px;
   }
   
@@ -487,7 +487,24 @@
     color: #ce3232;
     font-style: italic;
   }
-  /*---------------------------------------
+  #menu .options{
+    padding-bottom: 5rem;
+  }
+
+  #menu .options .col-xs-4{
+    
+    text-align: center;
+    display: inline;
+  }
+  #menu .options .col-xs-4:nth-child(2){
+    border-right: 2px solid rgb(107, 107, 107);
+    border-left: 2px solid rgb(107, 107, 107);
+    text-align: center;
+    display: inline;
+  }
+  
+
+ /*-----------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
 
@@ -756,6 +773,7 @@
     #menu .menu-thumb {
       width: 103%;
     }
+    
 
     #testimonial {
       background-position: 50% 0 !important;
@@ -765,6 +783,7 @@
     .footer-info {
       margin-bottom: 50px;
     }
+
   }
 
 
@@ -832,6 +851,9 @@
 
     .menu-thumb .menu-info {
       top: 80%;
+    }
+    #menu h4{
+      font-size: 1.5rem;
     }
 
     footer {
