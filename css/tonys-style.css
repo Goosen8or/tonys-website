@@ -446,14 +446,13 @@
   }
 
    #menu ul{
-    display: flex;
-    justify-content: center;
-  }/*
+    text-align:center;
+  }
   #menu ul li{
-    float: left;
-    position: relative;
-    left: -50%;
-  } */
+    float: none;
+    display: inline-block;
+    zoom: 1;
+  }
 
   #menu a:hover{
     color: #ffffff;
