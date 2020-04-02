@@ -445,16 +445,15 @@
     width: 100%;
   }
 
-  #menu ul{
-    float: left;
-    position: relative;
-    left: 50%;
-  }
+   #menu ul{
+    display: flex;
+    justify-content: center;
+  }/*
   #menu ul li{
     float: left;
     position: relative;
     left: -50%;
-  }
+  } */
 
   #menu a:hover{
     color: #ffffff;
@@ -465,6 +464,11 @@
     margin-bottom: 4rem;
   }
 
+  #menu .menu_tab {
+    width: auto;
+    margin: 0 auto;
+    
+  }
   /*---------------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
