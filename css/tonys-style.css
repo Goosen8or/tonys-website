@@ -467,7 +467,25 @@
   #menu .menu_tab {
     width: auto;
     margin: 0 auto;
-    
+  }
+
+  .single_menu_list {
+    position: relative;
+    margin-bottom: 80px;
+  }
+  
+  .single_menu_list h4 {
+    font-size: 20px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .single_menu_list h4 span {
+    float: right;
+    font-weight: bold;
+    color: #ce3232;
+    font-style: italic;
   }
   /*---------------------------------------
       TESTIMONIAL             
