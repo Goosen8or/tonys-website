@@ -455,12 +455,12 @@
                          </div>
 
                          <!-- CONTACT FORM -->
-                         <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
+                         <!-- <form action="php/contact.php" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
 
-                              <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
+                              IF MAIL SENT SUCCESSFUL  // connect this with custom JS
                               <h6 class="text-success">Your message has been sent successfully.</h6>
                               
-                              <!-- IF MAIL NOT SENT -->
+                              IF MAIL NOT SENT
                               <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
 
                               <div class="col-md-6 col-sm-6">
@@ -478,7 +478,56 @@
 
                                    <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
                               </div>
-                         </form>
+                         </form> -->
+                         <form name="contactform" method="post" action="send_form_email.php">
+                              <table width="450px">
+                              <tr>
+                               <td valign="top">
+                                <label for="first_name">First Name *</label>
+                               </td>
+                               <td valign="top">
+                                <input  type="text" name="first_name" maxlength="50" size="30">
+                               </td>
+                              </tr>
+                              <tr>
+                               <td valign="top">
+                                <label for="last_name">Last Name *</label>
+                               </td>
+                               <td valign="top">
+                                <input  type="text" name="last_name" maxlength="50" size="30">
+                               </td>
+                              </tr>
+                              <tr>
+                               <td valign="top">
+                                <label for="email">Email Address *</label>
+                               </td>
+                               <td valign="top">
+                                <input  type="text" name="email" maxlength="80" size="30">
+                               </td>
+                              </tr>
+                              <tr>
+                               <td valign="top">
+                                <label for="telephone">Telephone Number</label>
+                               </td>
+                               <td valign="top">
+                                <input  type="text" name="telephone" maxlength="30" size="30">
+                               </td>
+                              </tr>
+                              <tr>
+                               <td valign="top">
+                                <label for="comments">Comments *</label>
+                               </td>
+                               <td valign="top">
+                                <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                               </td>
+                              </tr>
+                              <tr>
+                               <td colspan="2" style="text-align:center">
+                                <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+                               </td>
+                              </tr>
+                              </table>
+                              </form>
                     </div>
 
                </div>
