@@ -539,6 +539,10 @@
   #menu #breads h2{
     padding-bottom: 5rem;
   }
+
+  #menu .tab-content .col-md-6{
+    padding-right: 5rem;
+  }
   
 
  /*-----------------------------------
@@ -651,11 +655,17 @@
   /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
+  div.row.bottom{
+    background-color: #f3f3f3;
+    padding-bottom: 60px;
 
+  }
   footer {
     border-top: 1px solid rgba(0,0,0,0.05);
     padding: 120px 0;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   footer .section-title {
@@ -686,16 +696,17 @@
 
   .footer-open-hour {
     background: #ce3232;
-    background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+    background: url('../images/testimonial-bg.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
-    padding: 40px 0 40px 80px;
+    padding: 40px 0 40px 0px;
     overflow: hidden;
     position: relative;
     z-index: 22;
     right: 20px;
     bottom: 20px;
+    margin: 0;
   }
 
   .footer-open-hour::after {
@@ -703,8 +714,7 @@
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
+    
     left: 0;
     width: 100%;
     height: 100%;
@@ -717,10 +727,23 @@
 
   .footer-open-hour p {
     color: #d9d9d9;
+    margin-bottom: 3px;
   }
 
   .footer-open-hour strong {
     color: #f9f9f9;
+  }
+  .footer-open-hour table{
+    margin: 0 auto;
+    border-collapse: separate;
+    
+  }
+  .footer-open-hour td{
+    text-align: center;
+  }
+  .footer-open-hour tr td:nth-child(1){
+    padding-right: 5rem;
+
   }
 
 
@@ -837,6 +860,8 @@
         display: table-cell;
      }
 
+
+    
     h1 {
       font-size: 2.5em;
     }
@@ -877,7 +902,7 @@
     }
 
     .custom-navbar .navbar-nav.navbar-right .section-btn {
-      display: block !important;
+      display: none !important;
       width: 80%;
       margin: 10px auto 10px auto;
       padding: 10px;
@@ -904,7 +929,7 @@
 
     footer {
       padding: 60px 0;
-      padding-bottom: 60px;
+      padding-bottom: 0px;
     }
 
     .footer-open-hour {
